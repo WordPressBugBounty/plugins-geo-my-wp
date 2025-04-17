@@ -1,0 +1,33 @@
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# folders
+tests/
+bin/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# Grunt
+node_modules
+
+# ignore composer vendor directory
+vendor
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+*.dist
+
+# Temporary files
+*~
+
+# Ignore personal VS Code settings
+/scripts/

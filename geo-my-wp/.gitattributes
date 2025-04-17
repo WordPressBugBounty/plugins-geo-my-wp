@@ -1,0 +1,10 @@
+# Normalize all text files to use LF line endings
+* text=auto
+
+# Treat common binary files as binary to prevent Git from altering them
+*.png binary
+*.jpg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.zip binary
